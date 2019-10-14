@@ -1,6 +1,6 @@
 class Calculator {
 
-    double gross(Product product) {
+    private double gross(Product product) {
         switch (product.getCategory()) {
             case 23:
                 return product.getNetPrice() * 1.23;

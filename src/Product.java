@@ -24,7 +24,7 @@ class Product {
         return netPrice;
     }
 
-    public void setnetPrice(double netPrice) {
+    public void setNetPrice(double netPrice) {
         this.netPrice = netPrice;
     }
 
